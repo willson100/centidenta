@@ -1,0 +1,163 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Sign In Page</title>
+    <style>
+        header{
+         display:flex ;
+         justify-content: space-between;
+         align-items: center;
+         max-width: 1200px;
+          margin-top: 0%;
+          gap: 8em;
+        }
+
+        nav{
+          margin: 4em;
+          margin-left: 14em;
+          }
+
+       nav ul{
+         list-style: none;
+          display: flex;
+         gap: 4.2em;
+          margin: 0;
+        }
+
+      nav  ul li a{
+         text-decoration: none;
+          color: navy;
+         text-transform: uppercase;
+         font-size: 1.3rem;
+         position: relative;
+        }
+
+       nav ul li a.active:before{
+         position: absolute;
+         content: "";
+         width: 20%;
+         height:1px;
+         border-bottom: 2px solid navy;
+         bottom: -6px;
+        }
+        .CEN{
+            text-decoration: none;
+            color: black;
+        }
+        body {
+            font-family: "Poppins", Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 70px;
+        }
+        .container {
+            max-width: 540px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9); /* Transparent background with white content */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input[type="text"], input[type="password"] {
+            width: 96%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: navy; /* Navy-colored sign-in button */
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9; /* Reduced opacity for the transparent effect */
+        }
+
+        input[type="submit"]:hover {
+            background-color: #001f3f; /* Darker shade of navy on hover */
+        }
+
+        .getintouch{
+
+           display: flex;
+           margin: 0;
+        }
+
+        .loc{
+         margin-left: 60%;
+
+
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <header>
+        <h2><a href="index.html" class="CEN">Centi Denta</a></h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="signin.html" class="active">Login</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+    
+        </nav>
+    </header>
+</head>
+
+
+<body>
+    
+    <div class="container">
+        <h1>Welcome back to Centi Denta <br>Sign In </h1>
+        <form action="submit_signin.php" method="post">
+            <label for="username">Username/Booking code:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <input type="submit" value="Sign In">
+        </form>
+    </div>
+    <p> <a href="#">Forget password?</a> I don't have an account, <b><u><a href="signup.html">sign up</a></u></p></b>
+    <P> Smile Bright with Centi Denta ! 🌟
+
+        🦷 Expert Care, Happy Smiles: Experience top-tier dental services in a friendly atmosphere.
+        
+        😄 Skilled Professionals: Our team is dedicated to your comfort and oral health.
+        
+        ✨ Modern Technology: Enjoy advanced treatments for a pain-free experience.
+        
+        Book now and uncover your best smile at Centi Denta!</P>
+       
+        <h3>Contact Us:</h3>
+
+        <div class="getintouch">
+           
+         
+            <p></p> Hotlines:<br> +233(0)543477444  030447655<br>
+             Youtube: CentiDenta<br>
+             Twitter: @Centi_Denta<br>
+             <div class="loc">
+              Miotso near Dawhenya<br>
+              Accra -Aflao<br>
+              P.O Box 2305 Tema or P.O. Box DS 2310 Dansoman,<br>
+              Accra- Ghana -West Africa</div>
+        </div>
+    </body>
+</html>
