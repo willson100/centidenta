@@ -1,0 +1,114 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header{display:flex ;
+           justify-content: space-between;
+           align-items: center;
+        }
+        
+        .navi ul{
+            list-style: none;
+            display: flex;
+            gap: 1em;
+            margin: 0%;
+            text-decoration: none;
+
+    
+            
+        }
+
+        .navi ul a{
+            text-decoration: none;
+            font-size: 1rem;
+            
+            position: relative;
+            text-transform: uppercases;
+            color: navy;
+            font-size: 1rem;
+        }
+
+        .navi ul li {
+
+            text-decoration: none;
+            padding: 10px 20px;
+            text-transform: uppercase;
+         
+            bottom: 1px;
+            border-radius: 6px;
+            color: navy;
+            font-size: 1rem;
+        }
+
+        .wii{
+            text-decoration:none;
+        }
+
+
+        .persondetails{
+
+            display: flex;
+            flex-direction: column;
+
+        }
+        .sides{
+            display: flex;
+            position: relative;
+            justify-content: space-between;
+            margin-top: 6em;
+            row-gap: 8em;
+        }
+         
+        
+
+        .table {
+         border-collapse: collapse;
+         width: 60%;
+         margin: 20px auto;
+          background-color: white;
+         border-radius: 5px;
+         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+       .table th, .custom-table td {
+         padding: 10px;
+         text-align: center;
+         border: 1px solid #ccc;
+        }
+
+        .table th {
+          background-color: #f2f2f2;
+        }
+
+        .table tr:nth-child(even) {
+          background-color: #f2f2f2;
+        }
+
+        .table tr:hover {
+         background-color: #e0e0e0;
+        }
+         
+        .left{
+            width: 45%;
+        }
+        
+        .right{
+            width: 45%;
+        }
+
+        .sides{
+
+        }
+        
+
+
+

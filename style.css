@@ -1,0 +1,321 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*navigation bar*/
+header{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav{
+    margin: 4em;
+    
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 4.1em;
+    margin: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: navy;
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    position: relative;
+}
+
+nav ul li a.active:before{
+    position: absolute;
+    content: "";
+    width: 35%;
+    height:1px;
+    border-bottom: 2px solid navy;
+    bottom: -6px;
+}
+
+main{
+    display: flex;
+    gap: 8em;
+    margin-top: 11em;
+}
+
+.left-side{
+    width: 45%;
+}
+
+.right-side{
+    flex-grow: 1;
+}
+
+h1{
+    font-size: 5.2rem;
+    font-weight: normal;
+    margin: 0%;
+}
+
+.lilabout{
+    font-size: 2rem;
+}
+
+.smile{
+    font-size:2rem;
+    margin-top: 3.7em;
+    text-decoration:solid ;
+}
+
+.right-side{
+    display: grid;
+    gap: 2.3em;
+    grid-template-columns: repeat(2,auto);
+    grid-template-areas:
+     "left right"
+     "left bottom";
+   
+}
+
+
+.appointment{
+    border-radius:.8em ;
+    padding: 1.1em;
+    display: flex;
+    align-items: end;
+    background-image: url('../imagess/appointment.JPEG');
+    grid-area: left;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    background-size: 150%;
+    overflow: hidden;
+    
+}
+
+.booktext{
+    margin: 0;
+    padding: 1em 2em;
+    border: 0;
+    background: none;
+    font-size: 1rem;
+    cursor: pointer;
+     
+     
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid white;
+     color: white; 
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+
+
+.services{
+    border-radius:.8em ;
+    padding: 1.1em;
+    display: flex;
+    align-items: end;
+    background-image: url('../imagess/services.jpg');
+    grid-area: right;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    background-size: 150%;
+    text-decoration: none;
+}
+
+.aservices{
+
+    margin: 0;
+    padding: 1em 2em;
+    border: 0;
+    background: none;
+    font-size: 1rem;
+    cursor: pointer;
+    
+     
+     
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid white;
+     color: white; 
+    border-radius: 6px;
+}
+
+.location{
+    border-radius:.8em ;
+    padding: 1.1em;
+    display: flex;
+    align-items: end;
+    background-image: url('../imagess/location.jpg');
+    grid-area: bottom;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    background-size: 150%;
+}
+
+
+
+    
+
+
+.workingdays{
+    font-size: 1.8rem;
+    margin-top: 3.7rem;
+}
+
+.loctation{
+
+   background-color: navy;
+   font-size: 1rem;
+   font-weight: bold;
+   color: rgb(255, 251, 245);
+   text-decoration: none;
+   border-radius: 0.5em;
+   padding:1em 2em;
+}
+
+.locationtext{
+
+    margin: 0;
+ padding: 1em 2em;
+ border: 0;
+ background: none;
+ font-size: 1rem;
+ cursor: pointer;
+  
+  
+ padding: 10px 20px;
+ background-color: transparent;
+ border: 2px solid white;
+  color: white; 
+ border-radius: 6px;
+}
+
+.listing ul{
+    margin: 0;
+    padding: 1em 2em;
+    border: 0;
+    background: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+     
+}
+
+.happyclients{
+    margin-top: 3em;
+}
+
+.HCtitle{
+   margin-left: 36%;
+   margin-top: 8em;
+   display: flex;
+   font-size: 1.5rem;
+}
+
+.HCtext{
+    font-size: 1.5rem;
+    display: flex;
+    padding: 19px;
+    gap: 4.1rem;
+    
+}
+
+.joey{
+    margin: 0;
+    border: 0;
+    background: none;
+    
+     
+     
+    padding: 10px 20px;
+    background-color: #ddddff;
+    border: transparent;
+     color: black; 
+    border-radius: 6px;
+
+}
+.RG{
+    margin: 0;
+    border: 0;
+    background: none;
+    
+     
+     
+    padding: 10px 20px;
+    background-color: #ddddff;
+    border: transparent;
+     color: black; 
+    border-radius: 6px;
+
+}
+.garry{
+    margin: 0;
+    border: 0;
+    background: none;
+  
+     
+     
+    padding: 10px 20px;
+    background-color: #ddddff;
+    border: 2px  transparent;
+     color: black; 
+    border-radius: 6px;
+
+}
+
+.GIT{
+    font-size: 1.7rem;
+    margin-left: 570px;
+    margin-top: 4em;
+
+}
+
+.about{
+    margin: 97%;
+    align-items: center;
+    margin: 0;
+    border: 0;
+    background: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    display: flex;
+    gap: 40em;
+     
+     
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid navy;
+     color: navy; 
+    border-radius: 6px;
+    list-style: none;
+}
+
+.vu{
+    color: white;
+    text-decoration: none;
+
+
+}
+.ba{
+    color: white;
+    text-decoration: none;
+
+}
+
+.os{
+    color: white;
+    text-decoration: none;
+}

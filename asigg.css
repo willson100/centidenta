@@ -1,0 +1,103 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*navigation bar*/
+header{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav{
+    margin: 4em;
+    
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 4.1em;
+    margin: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: navy;
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    position: relative;
+}
+
+nav ul li a.active:before{
+    position: absolute;
+    content: "";
+    width: 35%;
+    height:1px;
+    border-bottom: 2px solid navy;
+    bottom: -6px;
+}
+
+main{
+    display: flex;
+    gap: 8em;
+    margin-top: 11em;
+}
+
+.appria{
+
+    margin-left: 27%;
+    margin-top: 4%;
+}
+
+.appnote{
+    margin: 0;
+    border: 0;
+    background: none;
+    
+     
+     
+    padding: 10px 20px;
+    background-color: #ddddff;
+    border: transparent;
+     color: black; 
+    border-radius: 6px;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    font-size: 1.4rem;
+}
+
+.getintouch{
+
+    display: flex;
+    margin: 0;
+    color: navy;
+    font-size: 1.7rem;
+    margin-left: 3.5%;
+    
+}
+.loc{
+    margin-left: 60%;
+    font: 40%;
+
+
+}
+.cu{
+    color: solid black;
+    font: 40%;
+    margin-left: 3.5%;
+    font-size: 2rem;
+    margin-top: 10%;
+}

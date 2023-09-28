@@ -1,0 +1,167 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*navigation bar*/
+header{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav{
+    margin: 4em;
+    
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 4.1em;
+    margin: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: navy;
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    position: relative;
+}
+
+nav ul li a.active:before{
+    position: absolute;
+    content: "";
+    width: 35%;
+    height:1px;
+    border-bottom: 2px solid navy;
+    bottom: -6px;
+}
+
+
+
+.left-side{
+    width: 50%;
+
+
+}
+
+.persondetails{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+ 
+
+
+.sides{
+    display: flex;
+    margin-left: 4%;
+    margin-right: 4%;
+    position: relative;
+}
+
+
+
+.abt{
+    margin-left: 4%;
+}
+
+.Book{
+    margin-left: 4%;
+    margin-top: 1%;
+}
+.left-side1{
+    width: 50%;
+}
+
+.persondetail{
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.getintouch{
+
+    display: flex;
+    margin: 0;
+    color: navy;
+    font-size: 1.7rem;
+    margin-left: 3.5%;
+    margin-top: 1%;
+}
+.loc{
+    margin-left: 60%;
+    font: 40%;
+
+
+}
+.cu{
+    color: solid black;
+    font: 50%;
+    margin-left: 3.5%;
+    font-size: 2rem;
+    margin-top: 16%;
+}
+.pricing{
+    margin-left: 10%;
+}
+
+
+
+.pricing1{
+    font-size: 2em;
+    
+}
+
+.prices{
+    font-size:1.3em ;
+    
+}
+.bandl{
+    display: flex;
+}
+
+/* Add some basic styling for better presentation */
+table {
+ border-collapse: collapse;
+ width: 50%;
+ margin: 20px auto;
+}
+                        
+
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.prices{
+    margin-left:65% ;
+    margin-top: -30%;
+    
+
+}
+
+.DS{
+    margin-left: 24%;
+
+
+}
